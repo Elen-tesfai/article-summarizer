@@ -68,3 +68,23 @@ In this project, we perform sentiment analysis on an article to extract a concis
 - **article-summarizer.ipynb**: The final summarized version of the article.
 
 ---
+## How to Run
+
+1. Clone this repository.  
+2. Make sure you have Python 3.x installed.  
+3. Install required packages, e.g.:  
+ ```bash
+   pip install spacy spacytextblob beautifulsoup4 matplotlib
+   python -m spacy download en_core_web_sm
+``` 
+4. Open `article-summarizer.ipynb` in Jupyter Notebook or VS Code and run all cells.
+
+## Dependencies
+
+- **spaCy** – for NLP processing  
+- **spaCyTextBlob** – for sentiment analysis integration with spaCy  
+- **BeautifulSoup** – for parsing HTML  
+- **Matplotlib** – for visualization  
+
+**Author:** Elen Tesfai  
+GitHub Repository: [https://github.com/Elen-tesfai/article-summarizer](https://github.com/Elen-tesfai/article-summarizer)
