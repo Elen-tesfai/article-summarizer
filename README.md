@@ -40,17 +40,25 @@ In this project, we perform sentiment analysis on an article to extract a concis
 
 - **article.html**: The raw HTML file containing the article content.
 - **article-summarizer.ipynb**: The final summarized version of the article.
+- **requirements.txt**: A list of the Python packages required for the project.
 
----
+ ---
 ## How to Run
 
-1. Clone this repository.  
-2. Make sure you have Python 3.x installed.  
+1. **Clone this repository**:
+ ```bash
+   git clone https://github.com/Elen-tesfai/article-summarizer.git
+   cd article-summarizer
+ ```  
+2. Ensure Python 3.x is installed on your system.
+ ```bash
+python --version
+ ```
 3. Install required packages, e.g.:  
  ```bash
    pip install spacy spacytextblob beautifulsoup4 matplotlib
    python -m spacy download en_core_web_sm
-``` 
+ ``` 
 4. Open `article-summarizer.ipynb` in Jupyter Notebook or VS Code and run all cells.
 
 ## Dependencies
